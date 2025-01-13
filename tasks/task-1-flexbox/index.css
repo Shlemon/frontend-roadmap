@@ -1,0 +1,51 @@
+/* General Reset */
+body {
+    background-color: rgb(10, 10, 141);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Flex Container */
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: rgb(50, 50, 120);
+    width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* Main Content */
+.main-content {
+    background-color: rgb(70, 70, 150);
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* Footer */
+.footer {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
